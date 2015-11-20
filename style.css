@@ -30,7 +30,7 @@ main {
     margin-bottom: 1rem;
 }
 
-labal, input {
+label, input {
     height: 1.5rem;
 }
 
@@ -48,6 +48,14 @@ label {
 
 .subwrapper input {
     width: 100%;
+}
+
+.subwrapper input:valid {
+    border-color: green;
+}
+
+.subwrapper input:invalid {
+    border-color: red;
 }
 
 input[type="submit"] {
@@ -73,7 +81,7 @@ input[type="submit"] {
     }
 
     .subwrapper {
-        width: 80%;
+        width: 75%;
     }
 }
 
